@@ -5,7 +5,7 @@ const IS_MOBILE = window.innerWidth <= 640;
 const IS_DESKTOP = window.innerWidth > 800;
 const IS_HEADER = IS_DESKTOP && window.innerHeight < 300;
 ConstellationSketcher.setDrawLines(false);
-ConstellationSketcher.setConstellation('Aquarius').sketch();
+ConstellationSketcher.setConstellation('Virgo').sketch();
 ConstellationSketcher.setSpeedScale(0.4);
 
 
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			setTimeout(function() {
 				ConstellationSketcher.setDrawLines(false);
 				ConstellationSketcher.setConstellation('Scorpius').sketch();
-				var textNode = document.createTextNode("Gửi em Nam aka 'Em trai nuôi' aka 'Chó'. Từ lần đầu nói chuyện với e ở  trung thu thì a biết là em đặt biệt hơn những đứa nhóc cùng tuổi rồi. Em là một trong số ít người chịu ở bên anh lúc anh không có gì nên anh rất trân trọng, đôi lúc xưng m t nên bị thô quá nhưng em nếu trên thế giới chỉ còn một người chơi với e thì đó là anh. Em trưởng thành nên anh cũng mong em sẽ giữ vững các khát vọng trong lòng và biến nó thành hiện thực. Năm mới chúc em luôn mạnh khoẻ, hạnh phúc bên mẹ và chị gái nha. Năm sau mong em sẽ có thêm nhiều thành công hơn nữa. Kết bút: hẹn e 1 ngày không xa, chúc em ăn tết an lành.");
+				var textNode = document.createTextNode("Mong em bình an! Bụi Sao <3");
 
 			// Tạo một phần tử <p> và thêm đoạn văn bản vào đó
 			var paragraph = document.createElement("p");
